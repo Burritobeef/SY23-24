@@ -82,18 +82,18 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(49, 181)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(53, 20)
+        Me.Label4.Size = New System.Drawing.Size(47, 20)
         Me.Label4.TabIndex = 4
-        Me.Label4.Text = "Label4"
+        Me.Label4.Text = "range"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(49, 214)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(53, 20)
+        Me.Label5.Size = New System.Drawing.Size(38, 20)
         Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Label5"
+        Me.Label5.Text = "type"
         '
         'MenuStrip1
         '

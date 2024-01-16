@@ -34,14 +34,23 @@ Public Class Form1
         outFile.Close()
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If IO.File.Exists("Data.txt") Then
-            Dim inFile As New StreamReader("Data.txt")
-            Dim idx As Integer = 0
-            While (Not inFile.EndOfStream)
-                Records(idx) = inFile.ReadLine()
-                idx = idx + 1
-            End While
+        If IO.File.Exists("data.txt") Then
+            Dim inFile As New StreamReader("data.txt")
+            Records(0) = inFile.ReadLine
             inFile.Close()
+            showrecord(0)
+        End If
+    End Sub
+    Public Sub showrecord(index As Integer)
+        Dim fields() As String
+        fields = Records(index).Split("|")
+        Field1.Text = fields(0)
+        Field2.Text = fields(1)
+        Field3.Text = fields(2)
+        Field4.Text = fields(3)
+        Field5.Text = fields(4)
+        If File.Exists(fields(5)) Then
+            PictureBox1.Load(fields(5))
         End If
     End Sub
 End Class
