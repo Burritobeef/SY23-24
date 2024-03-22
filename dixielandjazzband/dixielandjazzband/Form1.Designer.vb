@@ -25,7 +25,7 @@ Partial Class Form1
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.DixiePrice = New System.Windows.Forms.Label()
+        Me.BirthPrice = New System.Windows.Forms.Label()
         Me.BirthUpDown = New System.Windows.Forms.NumericUpDown()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -70,7 +70,7 @@ Partial Class Form1
         Me.TabPage1.AccessibleName = "Birthday"
         Me.TabPage1.BackColor = System.Drawing.Color.PowderBlue
         Me.TabPage1.Controls.Add(Me.Label2)
-        Me.TabPage1.Controls.Add(Me.DixiePrice)
+        Me.TabPage1.Controls.Add(Me.BirthPrice)
         Me.TabPage1.Controls.Add(Me.BirthUpDown)
         Me.TabPage1.Font = New System.Drawing.Font("Showcard Gothic", 10.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.TabPage1.Location = New System.Drawing.Point(4, 27)
@@ -83,24 +83,24 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(13, 100)
+        Me.Label2.Location = New System.Drawing.Point(18, 144)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(135, 21)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Hours Rented"
         '
-        'DixiePrice
+        'BirthPrice
         '
-        Me.DixiePrice.AutoSize = True
-        Me.DixiePrice.Location = New System.Drawing.Point(339, 100)
-        Me.DixiePrice.Name = "DixiePrice"
-        Me.DixiePrice.Size = New System.Drawing.Size(66, 21)
-        Me.DixiePrice.TabIndex = 1
-        Me.DixiePrice.Text = "Label2"
+        Me.BirthPrice.AutoSize = True
+        Me.BirthPrice.Location = New System.Drawing.Point(344, 144)
+        Me.BirthPrice.Name = "BirthPrice"
+        Me.BirthPrice.Size = New System.Drawing.Size(66, 21)
+        Me.BirthPrice.TabIndex = 1
+        Me.BirthPrice.Text = "Label2"
         '
         'BirthUpDown
         '
-        Me.BirthUpDown.Location = New System.Drawing.Point(164, 98)
+        Me.BirthUpDown.Location = New System.Drawing.Point(169, 142)
         Me.BirthUpDown.Name = "BirthUpDown"
         Me.BirthUpDown.Size = New System.Drawing.Size(150, 29)
         Me.BirthUpDown.TabIndex = 0
@@ -159,7 +159,7 @@ Partial Class Form1
         '
         'ParUpDown
         '
-        Me.ParUpDown.Location = New System.Drawing.Point(223, 120)
+        Me.ParUpDown.Location = New System.Drawing.Point(178, 128)
         Me.ParUpDown.Name = "ParUpDown"
         Me.ParUpDown.Size = New System.Drawing.Size(150, 26)
         Me.ParUpDown.TabIndex = 2
@@ -167,7 +167,7 @@ Partial Class Form1
         'ParPrice
         '
         Me.ParPrice.AutoSize = True
-        Me.ParPrice.Location = New System.Drawing.Point(395, 128)
+        Me.ParPrice.Location = New System.Drawing.Point(343, 130)
         Me.ParPrice.Name = "ParPrice"
         Me.ParPrice.Size = New System.Drawing.Size(60, 18)
         Me.ParPrice.TabIndex = 1
@@ -176,7 +176,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(74, 128)
+        Me.Label3.Location = New System.Drawing.Point(38, 128)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(121, 18)
         Me.Label3.TabIndex = 0
@@ -271,7 +271,7 @@ Partial Class Form1
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents Label2 As Label
-    Friend WithEvents DixiePrice As Label
+    Friend WithEvents BirthPrice As Label
     Friend WithEvents BirthUpDown As NumericUpDown
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents Label1 As Label
