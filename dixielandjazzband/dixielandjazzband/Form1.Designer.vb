@@ -25,8 +25,6 @@ Partial Class Form1
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.BirthPrice = New System.Windows.Forms.Label()
-        Me.BirthUpDown = New System.Windows.Forms.NumericUpDown()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.WedUpDown = New System.Windows.Forms.NumericUpDown()
@@ -41,9 +39,9 @@ Partial Class Form1
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Title = New System.Windows.Forms.Label()
+        Me.PriceControl1 = New dixielandjazzband.PriceControl()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
-        CType(Me.BirthUpDown, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
         CType(Me.WedUpDown, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage3.SuspendLayout()
@@ -69,9 +67,8 @@ Partial Class Form1
         '
         Me.TabPage1.AccessibleName = "Birthday"
         Me.TabPage1.BackColor = System.Drawing.Color.PowderBlue
+        Me.TabPage1.Controls.Add(Me.PriceControl1)
         Me.TabPage1.Controls.Add(Me.Label2)
-        Me.TabPage1.Controls.Add(Me.BirthPrice)
-        Me.TabPage1.Controls.Add(Me.BirthUpDown)
         Me.TabPage1.Font = New System.Drawing.Font("Showcard Gothic", 10.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
         Me.TabPage1.Location = New System.Drawing.Point(4, 27)
         Me.TabPage1.Name = "TabPage1"
@@ -88,22 +85,6 @@ Partial Class Form1
         Me.Label2.Size = New System.Drawing.Size(135, 21)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Hours Rented"
-        '
-        'BirthPrice
-        '
-        Me.BirthPrice.AutoSize = True
-        Me.BirthPrice.Location = New System.Drawing.Point(344, 144)
-        Me.BirthPrice.Name = "BirthPrice"
-        Me.BirthPrice.Size = New System.Drawing.Size(66, 21)
-        Me.BirthPrice.TabIndex = 1
-        Me.BirthPrice.Text = "Label2"
-        '
-        'BirthUpDown
-        '
-        Me.BirthUpDown.Location = New System.Drawing.Point(169, 142)
-        Me.BirthUpDown.Name = "BirthUpDown"
-        Me.BirthUpDown.Size = New System.Drawing.Size(150, 29)
-        Me.BirthUpDown.TabIndex = 0
         '
         'TabPage2
         '
@@ -239,6 +220,16 @@ Partial Class Form1
         Me.Title.TabIndex = 2
         Me.Title.Text = "Dixieland Jazz"
         '
+        'PriceControl1
+        '
+        Me.PriceControl1.BackColor = System.Drawing.Color.PowderBlue
+        Me.PriceControl1.Location = New System.Drawing.Point(160, 58)
+        Me.PriceControl1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.PriceControl1.Name = "PriceControl1"
+        Me.PriceControl1.Price = 0
+        Me.PriceControl1.Size = New System.Drawing.Size(188, 188)
+        Me.PriceControl1.TabIndex = 3
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
@@ -253,7 +244,6 @@ Partial Class Form1
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
-        CType(Me.BirthUpDown, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
         CType(Me.WedUpDown, System.ComponentModel.ISupportInitialize).EndInit()
@@ -271,8 +261,6 @@ Partial Class Form1
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents Label2 As Label
-    Friend WithEvents BirthPrice As Label
-    Friend WithEvents BirthUpDown As NumericUpDown
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents Label1 As Label
     Friend WithEvents TabPage3 As TabPage
@@ -287,4 +275,5 @@ Partial Class Form1
     Friend WithEvents FunUpDown As NumericUpDown
     Friend WithEvents FunPrice As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents PriceControl1 As PriceControl
 End Class
