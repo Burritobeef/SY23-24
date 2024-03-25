@@ -19,10 +19,7 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        FunPrice.Text = ("C2")
-        ParPrice.Text = ("C2")
-        WedPrice.Text = ("C2")
-        BirthPrice.Text = ("C2")
+
 
     End Sub
 End Class
