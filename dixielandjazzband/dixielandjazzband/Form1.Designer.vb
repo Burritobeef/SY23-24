@@ -226,7 +226,7 @@ Partial Class Form1
         Me.PriceControl1.Location = New System.Drawing.Point(160, 58)
         Me.PriceControl1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PriceControl1.Name = "PriceControl1"
-        Me.PriceControl1.PriceControl = 1
+        'Me.PriceControl1.PriceControl = 1
         Me.PriceControl1.Size = New System.Drawing.Size(188, 188)
         Me.PriceControl1.TabIndex = 3
         '

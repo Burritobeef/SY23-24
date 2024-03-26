@@ -1,11 +1,11 @@
 ﻿Public Class Price
-    Public Property Price As Integer
-    Public Property Increment As Integer = 1
+    Public Property Price As Decimal
+    Public Property Increment As Decimal
     Public Sub Add()
-        Price = Price + 1
+        Price = Price + 30
     End Sub
     Public Sub Remove()
-        Price = Price - 1
+        Price = Price - 30
     End Sub
     Public Sub Clear()
         Price = 0

@@ -59,6 +59,7 @@ Partial Class PriceControl
         '
         Me.PriceTextBox.Location = New System.Drawing.Point(3, 73)
         Me.PriceTextBox.Name = "PriceTextBox"
+        Me.PriceTextBox.ReadOnly = True
         Me.PriceTextBox.Size = New System.Drawing.Size(125, 27)
         Me.PriceTextBox.TabIndex = 3
         '
