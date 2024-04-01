@@ -72,9 +72,9 @@ Partial Class Form1
         '
         Me.PriceControl1.BackColor = System.Drawing.Color.PowderBlue
         Me.PriceControl1.Increment = New Decimal(New Integer() {0, 0, 0, 0})
-        Me.PriceControl1.Location = New System.Drawing.Point(245, 182)
+        Me.PriceControl1.Location = New System.Drawing.Point(245, 205)
         Me.PriceControl1.Name = "PriceControl1"
-        Me.PriceControl1.Size = New System.Drawing.Size(218, 245)
+        Me.PriceControl1.Size = New System.Drawing.Size(494, 220)
         Me.PriceControl1.TabIndex = 4
         '
         'Label2
@@ -82,7 +82,7 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.PowderBlue
         Me.Label2.Font = New System.Drawing.Font("Snap ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(63, 301)
+        Me.Label2.Location = New System.Drawing.Point(63, 322)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(176, 27)
         Me.Label2.TabIndex = 5
@@ -90,7 +90,7 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(248, 172)
+        Me.TextBox1.Location = New System.Drawing.Point(248, 197)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(125, 27)
         Me.TextBox1.TabIndex = 6
@@ -100,7 +100,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.PowderBlue
         Me.Label3.Font = New System.Drawing.Font("Snap ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(50, 172)
+        Me.Label3.Location = New System.Drawing.Point(53, 195)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(189, 27)
         Me.Label3.TabIndex = 7

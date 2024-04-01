@@ -62,11 +62,11 @@ Partial Class PriceControl
         '
         Me.TotalLabel.AutoSize = True
         Me.TotalLabel.Font = New System.Drawing.Font("Snap ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TotalLabel.Location = New System.Drawing.Point(89, 168)
+        Me.TotalLabel.Location = New System.Drawing.Point(223, 168)
         Me.TotalLabel.Name = "TotalLabel"
-        Me.TotalLabel.Size = New System.Drawing.Size(83, 27)
+        Me.TotalLabel.Size = New System.Drawing.Size(87, 27)
         Me.TotalLabel.TabIndex = 4
-        Me.TotalLabel.Text = "Label1"
+        Me.TotalLabel.Text = "$0.00"
         '
         'Label1
         '
@@ -74,9 +74,9 @@ Partial Class PriceControl
         Me.Label1.Font = New System.Drawing.Font("Snap ITC", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label1.Location = New System.Drawing.Point(3, 168)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(80, 27)
+        Me.Label1.Size = New System.Drawing.Size(205, 27)
         Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Total:"
+        Me.Label1.Text = "Estimated Total:"
         '
         'PriceControl
         '
@@ -89,7 +89,7 @@ Partial Class PriceControl
         Me.Controls.Add(Me.TakeOneButton)
         Me.Controls.Add(Me.AddOneButton)
         Me.Name = "PriceControl"
-        Me.Size = New System.Drawing.Size(194, 237)
+        Me.Size = New System.Drawing.Size(623, 237)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
