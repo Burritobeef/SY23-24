@@ -1,7 +1,8 @@
-﻿body{
-    background-color:black
+﻿body {
+    background-color: lightblue;
 }
+
 h1 {
-    color:skyblue
-    font-family:Times
+    color: navy;
+    margin-left: 20px;
 }
